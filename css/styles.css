@@ -1,4 +1,4 @@
-
+  /* Global CSS */
 * {
   box-sizing: border-box;
 }
@@ -6,12 +6,14 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
-
+  
+  /* Main Styles */
 
 body {
   background-color: #f5f2eb;
   margin:auto;
 }
+
 .introduction {
   text-align: center;
   padding-top: 25px;
@@ -33,14 +35,13 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .main-nav {
   text-align: center;
-    list-style: none;
-    margin: auto;
-    padding: 0;
+  list-style: none;
+  margin: auto;
+  padding: 0;
 }
 
 .main-nav li {
@@ -56,28 +57,24 @@ p {
   font-weight: bold;
   font-size: 1em;
 }
-
-.name {
-  text-align: center;
-  padding: 10px 0;
-
+.main-nav a:hover {
+  color: #34c3eb;
+  font-size: 20px;
 }
 
 .portfolio {
-background-color: white;
-text-align:center;
-padding-top: 40px;
-padding-bottom: 15%;
-
-
+  background-color: white;
+  text-align:center;
+  padding-top: 40px;
+  padding-bottom: 15%;
 }
 
 
 .portfolio-pictures {
-width: 100%;
-padding:0 20px;
-
+  width: 100%;
+  padding:0 20px;
 }
+
 .contact {
   text-align: center;
   padding-top: 10px;
@@ -93,14 +90,15 @@ padding:0 20px;
   font-weight: bold;
   font-size: .9em;
 }
+
 .contact-info {
   text-align: center;
 }
+
 .email {
   text-align: center;
   font-size: 15px;
 }
-
 
 .phone {
   text-align: center;
@@ -111,14 +109,13 @@ footer {
   border-top: solid lightgray 1px;
 }
 
-
 .foot-name {
   text-align: left;
   padding: 40px 60px 15px 15px;
-  
   font-size: 15px;
   display: inline-block;
 }
+
 .top {
   text-align: right;
 }
@@ -127,7 +124,9 @@ footer {
   display: none;
 }
 
-@media (min-width: 768px) {
+  /* Media Queries */
+
+  @media (min-width: 768px) {
 
 .name {
   margin-bottom: 0;
@@ -214,6 +213,10 @@ footer {
   font-size: 1.1em;
   padding-top: 20px;
   margin: 0;
+}
+.footer-nav a:hover {
+  color: #34c3eb;
+  font-size: 20px;
 }
 .foot-name {
   margin: 0;
